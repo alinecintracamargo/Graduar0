@@ -3,7 +3,7 @@ def remove_element(nums, k)
   return nums
 end
 
-nums=[0,1,2,2,3,0,4,2]
-k= 2
+nums=[3, 2, 2, 3]
+k= 3
 result = remove_element(nums,k)
 puts nums.inspect
